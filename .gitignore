@@ -1,0 +1,44 @@
+# OS junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Large caches and media dumps. Keep this mirror to docs and scripts.
+.cache/
+.parcel-cache/
+.turbo/
+*.wav
+*.mp3
+*.mp4
+*.webp
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+!.env.example
